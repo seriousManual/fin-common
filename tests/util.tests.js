@@ -1,9 +1,17 @@
 var moment = require('moment');
 var expect = require('chai').expect;
 
-var parameterHelper = require('../').parameterHelper;
-console.log( require('../') );
+var commons = require('../');
+var parameterHelper = commons.util.parameterHelper;
+var checkSum = commons.util.checkSum;
+
 describe('util', function () {
+    describe('checkSum', function() {
+        it('should create a checksum', function() {
+            expect(checkSum(1,2,3)).to.equal('c8ed273de4ad4be38421b0a215bb46c730b7ad90');
+        });
+    });
+
     describe('parameterHelper', function () {
         describe('validDate', function () {
             it('should return a date', function () {
