@@ -2,7 +2,7 @@ var moment = require('moment');
 var expect = require('chai').expect;
 
 var parameterHelper = require('../').parameterHelper;
-
+console.log( require('../') );
 describe('util', function () {
     describe('parameterHelper', function () {
         describe('validDate', function () {
