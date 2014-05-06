@@ -1,1 +1,1 @@
-# fin-common
+# fin-common [![Build Status](https://travis-ci.org/zaphod1984/fin-common.png)](https://travis-ci.org/zaphod1984/fin-common)
