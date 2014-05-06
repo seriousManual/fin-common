@@ -4,7 +4,7 @@
   "description": "shared fin resoureces",
   "main": "./lib/main.js",
   "scripts": {
-    "test": "./node_modules/bin/mocha tests"
+    "test": "./node_modules/.bin/mocha tests"
   },
   "author": "Manuel Ernst <zaphod84@gmx.de>",
   "license": "MIT",
