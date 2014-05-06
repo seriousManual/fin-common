@@ -1,6 +1,6 @@
 {
   "name": "fin-common",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "shared fin resoureces",
   "main": "./lib/main.js",
   "scripts": {
